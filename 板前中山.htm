@@ -1,0 +1,141 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-Hant" manifest="index.appcache">
+    <head>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zonzen板前中山線上訂位開放時程查詢</title>
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <Meta http-equiv="Expires" Content="0">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+<style>
+a {
+    text-decoration:none;
+}
+</style>
+<body>
+
+
+ <style type="text/css"> 
+     body {
+background-color: #f7f7f7;
+
+  text-align: center;
+  padding-top: 20px;
+  
+}
+
+#container {
+	margin: auto;
+	position: relative;
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	max-width:750px;
+	font-family: "微軟正黑體", "新細明體";
+	font-size: 14pt;
+
+	}
+
+</style>
+ </ul></section></nav>  <div id="container"><h3>板前中山線上訂位日程查詢</h3> 
+  
+<script language="javascript">
+var date1 = new Date();
+var date2 = new Date(date1);
+date2.setDate(date1.getDate() + 29);
+console.log(date2.getFullYear() + "-" + (date2.getMonth() + 1) + "-" + date2.getDate() + "-"+ date2.getDay());
+document.write("目前可預訂日期為：" + date1.getFullYear()+ "/" + (date1.getMonth()+1) + "/" + date1.getDate() +"－");
+document.write((date2.getMonth() +1 ) + "/" + date2.getDate());
+</script>
+
+   <form name="280" ID="280"> 
+----------------------------<br>
+<p><span class="style19">請按下日曆選擇「用餐日期」▼<br>
+  <input name="date1" type="date" class="formc1" size="15" value="">
+ <br><input name="date1A" type="text" class="formc4a" id="data1A" size="15" readonly/><br>
+</p>
+<p><span class="style19"></span>
+  <input name="num" type="text" class="formc3b" id="num" value="-29" hidden="true" />
+</p>
+<p>
+  <input type="button" class="formc2" onclick="plus280(this);" value="查詢開放日期" />
+  <br>
+  <p>
+  開放預訂日期為▼<br>
+  <input name="date2" type="text" class="formc1" size="15" readonly><br>
+  <input name="date2A" type="text" class="formc4a" size="15" readonly>
+  <br>----------------------------<br></p>AM 00:00 起即可線上預訂</p>
+
+<a href="https://inline.app/booking/-LzoSPyWXzTNSaE-I4QJ:inline-live-1/-NbCmIwbNwC5pJhud0ju" target="_blank">👉台北新光</a> ｜
+<a href="https://inline.app/booking/-LzoSPyWXzTNSaE-I4QJ:inline-live-1/-N_aoyq3FoVkVFlaIRWO" target="_blank">👉台北信義</a> 
+</p>板前中山 ITAMAE ZONZEN<br>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- dayplus336 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:336px;height:280px"
+     data-ad-client="ca-pub-6363297981371690"
+     data-ad-slot="5794953720"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script> <br> <br>
+ <script type="text/javascript"> 
+
+document.forms[0].date1.value = dateToString(new Date());
+ 
+function dateToString(d){
+return [d.getFullYear(),d.getMonth()+1,d.getDate()].join('/');
+ 
+}
+ 
+function plus280(x){
+d = new Date(x.form.date1.value);
+NewDay=d.getDay();
+switch(NewDay)
+{
+case 0 : NewDay="星期日";break;
+case 1 : NewDay="星期一(尚未開放訂位)";break;
+case 2 : NewDay="星期二(尚未開放訂位)";break;
+case 3 : NewDay="星期三";break;
+case 4 : NewDay="星期四";break;
+case 5 : NewDay="星期五";break;
+case 6 : NewDay="星期六";break;
+default : NewDay="未選擇日期";break;}
+x.form.date1A.value = NewDay;
+
+var dayy=document.forms[0].num.value;
+var dayy2=parseInt(dayy,10);
+d = new Date(d.getFullYear(),d.getMonth(),d.getDate()+dayy2);
+x.form.date2.value = dateToString(d);
+NewDay=d.getDay();
+switch(NewDay)
+{
+case 0 : NewDay="星期日";break;
+case 1 : NewDay="星期一";break;
+case 2 : NewDay="星期二";break;
+case 3 : NewDay="星期三";break;
+case 4 : NewDay="星期四";break;
+case 5 : NewDay="星期五";break;
+case 6 : NewDay="星期六";break;
+default : NewDay="未選擇日期";break;}
+x.form.date2A.value = NewDay;
+ 
+}
+</script>
+  </form> 
+  
+  
+  
+  
+  
+  
+  
+   </div>
+
+<script src="https://www.drv.tw/inc/wd.js?s=yqq86ub0pdi0qqst6z1kya"></script></body>
+</html>   
+   
+
+      
